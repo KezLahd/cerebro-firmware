@@ -35,3 +35,9 @@ src/main_speaker_test.cpp.bak
 # Secrets (belt-and-braces — nothing is currently committed)
 secrets.h
 wifi_credentials.h
+
+# Internal planning / implementation notes — kept locally, not shipped publicly
+*_STATUS.md
+*_PLAN.md
+*_NOTES.md
+*_EXPLANATION.md
