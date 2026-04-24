@@ -1,0 +1,37 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# VS Code / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artefacts
+*.o
+*.elf
+*.bin
+*.map
+*.hex
+
+# Local backups kept during dev (not for public history)
+src/*.bak
+src/*.bak2
+src/*.face
+src/*.face_backup
+src/main_face*.cpp.bak
+src/main_speaker_test.cpp.bak
+
+# Secrets (belt-and-braces — nothing is currently committed)
+secrets.h
+wifi_credentials.h

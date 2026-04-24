@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Cerebro Firmware">
+  <defs>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M 56 0 L 0 0 0 56" fill="none" stroke="#000000" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="gridFade" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#F8F6F1" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#F8F6F1" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#F8F6F1" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="360" fill="#F8F6F1"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <rect width="1200" height="360" fill="url(#gridFade)"/>
+
+  <g transform="translate(80, 54)">
+    <rect width="156" height="28" rx="14" fill="#E8000A" fill-opacity="0.07" stroke="#E8000A" stroke-opacity="0.28"/>
+    <text x="78" y="19" text-anchor="middle" fill="#E8000A" font-family="'DM Sans','Inter',system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="2.4">SPEECH INTELLIGENCE</text>
+  </g>
+
+  <text x="80" y="228" fill="#0D0D0D" font-family="'Instrument Serif','Georgia',serif" font-size="180" letter-spacing="-6">Cerebro<tspan fill="#E8000A">.</tspan></text>
+
+  <text x="82" y="274" fill="#0D0D0D" fill-opacity="0.5" font-family="'DM Sans','Inter',system-ui,sans-serif" font-size="18" font-weight="300">A second-brain voice-capture device — ESP32-S3, AMOLED, on-device AI companion.</text>
+
+  <g transform="translate(80, 300)" font-family="'DM Sans','Inter',system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="1.6">
+    <g>
+      <rect width="108" height="26" rx="13" fill="#FFFFFF" stroke="#0D0D0D" stroke-opacity="0.14"/>
+      <text x="54" y="17" text-anchor="middle" fill="#0D0D0D" fill-opacity="0.7">ESP32-S3</text>
+    </g>
+    <g transform="translate(116, 0)">
+      <rect width="86" height="26" rx="13" fill="#FFFFFF" stroke="#0D0D0D" stroke-opacity="0.14"/>
+      <text x="43" y="17" text-anchor="middle" fill="#0D0D0D" fill-opacity="0.7">AMOLED</text>
+    </g>
+    <g transform="translate(210, 0)">
+      <rect width="66" height="26" rx="13" fill="#FFFFFF" stroke="#0D0D0D" stroke-opacity="0.14"/>
+      <text x="33" y="17" text-anchor="middle" fill="#0D0D0D" fill-opacity="0.7">BLE</text>
+    </g>
+    <g transform="translate(284, 0)">
+      <rect width="76" height="26" rx="13" fill="#FFFFFF" stroke="#0D0D0D" stroke-opacity="0.14"/>
+      <text x="38" y="17" text-anchor="middle" fill="#0D0D0D" fill-opacity="0.7">Wi-Fi</text>
+    </g>
+    <g transform="translate(368, 0)">
+      <rect width="102" height="26" rx="13" fill="#FFFFFF" stroke="#0D0D0D" stroke-opacity="0.14"/>
+      <text x="51" y="17" text-anchor="middle" fill="#0D0D0D" fill-opacity="0.7">PlatformIO</text>
+    </g>
+  </g>
+
+  <g transform="translate(990, 130)">
+    <circle r="112" fill="#000000"/>
+    <circle r="112" fill="none" stroke="#E8000A" stroke-opacity="0.22" stroke-width="1"/>
+    <g font-family="'DM Sans','Inter',system-ui,sans-serif" fill="#F5F5F0">
+      <ellipse cx="-28" cy="-14" rx="14" ry="28" fill="#F5F5F0"/>
+      <ellipse cx="28" cy="-14" rx="14" ry="28" fill="#F5F5F0"/>
+      <circle cx="-28" cy="-10" r="9" fill="#0D0D0D"/>
+      <circle cx="28" cy="-10" r="9" fill="#0D0D0D"/>
+      <circle cx="-25" cy="-13" r="3" fill="#F5F5F0"/>
+      <circle cx="31" cy="-13" r="3" fill="#F5F5F0"/>
+      <path d="M -20 36 Q 0 52 20 36" fill="none" stroke="#F5F5F0" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <circle cx="92" cy="-72" r="6" fill="#E8000A"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-label="Hardware">
+  <defs>
+    <pattern id="g1" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M 56 0 L 0 0 0 56" fill="none" stroke="#000000" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="f1" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#F8F6F1" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#F8F6F1" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#F8F6F1" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="220" fill="#F8F6F1"/>
+  <rect width="1200" height="220" fill="url(#g1)"/>
+  <rect width="1200" height="220" fill="url(#f1)"/>
+
+  <g transform="translate(80, 40)">
+    <rect width="126" height="26" rx="13" fill="#E8000A" fill-opacity="0.07" stroke="#E8000A" stroke-opacity="0.28"/>
+    <text x="63" y="17.5" text-anchor="middle" fill="#E8000A" font-family="'DM Sans','Inter',system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="2.2">01 · HARDWARE</text>
+  </g>
+
+  <text x="80" y="142" fill="#0D0D0D" font-family="'Instrument Serif','Georgia',serif" font-size="72" letter-spacing="-2">Hardware<tspan fill="#E8000A">.</tspan></text>
+  <text x="82" y="172" fill="#0D0D0D" fill-opacity="0.5" font-family="'DM Sans','Inter',system-ui,sans-serif" font-size="15" font-weight="300">The board, the GPIO map, the peripherals — everything the firmware talks to.</text>
+
+  <g transform="translate(900, 86)" font-family="'DM Sans','Inter',system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="1.4">
+    <g>
+      <rect width="240" height="26" rx="13" fill="#000000"/>
+      <circle cx="18" cy="13" r="4" fill="#E8000A"/>
+      <text x="34" y="17" fill="#F5F5F0">ESP32-S3R8 · 8MB PSRAM</text>
+    </g>
+    <g transform="translate(0, 36)">
+      <rect width="240" height="26" rx="13" fill="#FFFFFF" stroke="#0D0D0D" stroke-opacity="0.14"/>
+      <text x="120" y="17" text-anchor="middle" fill="#0D0D0D" fill-opacity="0.6">Waveshare 1.75C · 466×466</text>
+    </g>
+  </g>
+</svg>
