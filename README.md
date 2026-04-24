@@ -41,7 +41,7 @@ A single PlatformIO project for the **Waveshare ESP32-S3-Touch-AMOLED-1.75C**. T
 
 ```bash
 # 1. Clone
-git clone https://github.com/kezlahd/cerebro-firmware.git
+git clone https://github.com/KezLahd/cerebro-firmware.git
 cd cerebro-firmware
 
 # 2. Install PlatformIO (if you don't have it)
@@ -133,7 +133,7 @@ MIT. See [LICENSE](./LICENSE). Use it, break it, ship it.
 ---
 
 <p align="center">
-  <sub>Built by <a href="https://github.com/kezlahd">Kieran Jackson</a> · Sydney · 2026</sub>
+  <sub>Built by <a href="https://github.com/KezLahd">Kieran Jackson</a> · Sydney · 2026</sub>
   <br/>
   <sub>Part of the <b>Cerebro</b> project — the hardware is the input, the phone is the brain.</sub>
 </p>
